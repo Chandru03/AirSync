@@ -1,0 +1,33 @@
+# Build output
+build/
+*/build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE / tools
+.idea/
+*.iml
+.DS_Store
+.agent/
+.navigation/
+
+# Local machine config (SDK path, signing) — never commit
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# Crash logs from the IDE/JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Bluetooth captures contain device addresses and pairing key material — never commit
+*.pklg
+*.btsnoop
+*.cfa
+btsnoop_hci.log*

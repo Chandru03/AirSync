@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background shown before Compose draws (avoids a white flash). -->
+    <color name="window_background">#FFF8FAFD</color>
+
+    <!-- Widget palette (static fallback; Android 12+ uses Material You colours from values-v31). -->
+    <color name="widget_surface">#FFF0F4F9</color>
+    <color name="widget_on_surface">#FF1F1F1F</color>
+    <color name="widget_on_surface_variant">#FF444746</color>
+    <color name="widget_accent">#FF0B57D0</color>
+    <color name="widget_accent_container">#FFD3E3FD</color>
+    <color name="widget_on_accent_container">#FF041E49</color>
+    <color name="widget_track">#FFDDE3EA</color>
+</resources>

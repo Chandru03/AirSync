@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">AirSync</string>
+    <string name="tile_label">AirPods</string>
+    <string name="widget_description">Battery levels and one-tap noise control for your AirPods</string>
+
+    <!-- Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_not_connected">Not connected</string>
+    <string name="hero_connected_line">Connected · %1$s</string>
+    <string name="hero_not_connected_title">AirPods not connected</string>
+    <string name="hero_not_connected_body">Open the case near your phone and tap Connect. To pair new AirPods, double-tap the front of the case until the light flashes white, then pair them in Bluetooth settings.</string>
+    <string name="hero_bt_off_title">Bluetooth is off</string>
+    <string name="hero_bt_off_body">Turn on Bluetooth to connect your AirPods.</string>
+
+    <!-- Battery -->
+    <string name="battery_left">Left</string>
+    <string name="battery_right">Right</string>
+    <string name="battery_case">Case</string>
+    <string name="battery_airpods">AirPods</string>
+    <string name="battery_summary">L %1$s · R %2$s · Case %3$s</string>
+    <string name="battery_single">AirPods %1$s</string>
+    <string name="battery_hint_waiting">Reading battery… Open the case lid near your phone for an instant update.</string>
+    <string name="battery_hint_case_lid">The case reports its battery when an AirPod is placed in it with the lid open.</string>
+    <string name="battery_hint_hfp">Showing the combined level. Open the case near your phone for left, right and case levels.</string>
+    <string name="wear_in_ear">In ear</string>
+    <string name="wear_in_case">In case</string>
+    <string name="wear_out">Not in ear</string>
+
+    <!-- Noise control -->
+    <string name="section_noise_control">Noise control</string>
+    <string name="mode_anc">Noise Cancellation</string>
+    <string name="mode_anc_short">Noise Cancel</string>
+    <string name="mode_transparency">Transparency</string>
+    <string name="mode_adaptive">Adaptive</string>
+    <string name="mode_off">Off</string>
+    <string name="mode_anc_desc">Blocks outside sound so you can focus on what you\'re listening to.</string>
+    <string name="mode_transparency_desc">Lets outside sound in so you stay aware of your surroundings.</string>
+    <string name="mode_adaptive_desc">Blends noise cancellation and transparency based on your environment.</string>
+    <string name="mode_off_desc">Noise cancellation and transparency are turned off.</string>
+    <string name="transparency_level">Transparency amount</string>
+    <string name="adaptive_level">Noise reduction</string>
+    <string name="level_natural">Natural</string>
+    <string name="level_amplified">Amplified</string>
+    <string name="level_less_noise">More sound</string>
+    <string name="level_more_noise">Less sound</string>
+    <string name="noise_control_simulated_note">Connecting to your AirPods\' control channel… If this doesn\'t clear within a few seconds, this phone is blocking direct control and AirSync will only keep track of your choice. To switch the AirPods themselves, press and hold either stem.</string>
+    <string name="noise_control_disconnected_note">Connect your AirPods to change the listening mode.</string>
+
+    <!-- Listening -->
+    <string name="section_listening">Listening</string>
+    <string name="ca_title">Conversation Awareness</string>
+    <string name="ca_subtitle_real">Your AirPods\' microphones lower the volume and let voices through when you start speaking</string>
+    <string name="ca_subtitle_speaking">You\'re speaking · volume lowered</string>
+    <string name="ca_subtitle_unavailable">Available when your AirPods are connected</string>
+    <string name="head_gestures_title">Head gestures</string>
+    <string name="head_gestures_subtitle">Nod to answer a call, shake your head to decline</string>
+    <string name="head_gestures_access_note">Allow notification access so gestures also work for WhatsApp and other app calls.</string>
+    <string name="rtp_title">Automatic ear detection</string>
+    <string name="rtp_subtitle">Pauses when you take an AirPod out and resumes when you put it back</string>
+    <string name="rtp_subtitle_active">Active · pauses when you take an AirPod out</string>
+    <string name="rtp_subtitle_waiting">Waiting for ear sensors… this starts working within a few seconds of wearing your AirPods</string>
+
+    <!-- Sound -->
+    <string name="section_sound">Sound</string>
+    <string name="spatial_title">Spatial audio</string>
+    <string name="spatial_on_airpods">On for your AirPods</string>
+    <string name="spatial_on">On</string>
+    <string name="spatial_paused">On · paused for this audio</string>
+    <string name="spatial_off">Off</string>
+    <string name="spatial_unsupported">Not available</string>
+    <string name="spatial_body_fixed">Dolby Atmos and surround sound play spatially, fixed to your head. Head tracking isn\'t available to apps on Android.</string>
+    <string name="spatial_body_tracked">Dolby Atmos and surround sound play spatially, with head tracking.</string>
+    <string name="spatial_body_paused">Spatial audio isn\'t used for calls or audio that can\'t be spatialized. It resumes automatically.</string>
+    <string name="spatial_body_off">Turned off in your phone\'s settings for this audio output.</string>
+    <string name="spatial_body_unsupported">This phone doesn\'t have a spatial audio engine.</string>
+    <string name="sound_subtitle">Spatial audio, equalizer and per-app sound</string>
+    <string name="eq_band_bass">Bass</string>
+    <string name="eq_band_mid">Mid</string>
+    <string name="eq_band_treble">Treble</string>
+    <string name="eq_balanced">Balanced</string>
+    <string name="eq_bass">Bass Boost</string>
+    <string name="eq_vocal">Vocal Clarity</string>
+    <string name="eq_curve_cd">Equalizer curve: %1$s</string>
+    <string name="per_app_title">Per-app sound</string>
+    <string name="per_app_empty">Start playing music in an app such as Samsung Music or Spotify, and it appears here so you can give it its own sound.</string>
+    <string name="per_app_active">Playing now</string>
+    <string name="per_app_default">Default (%1$s)</string>
+    <string name="per_app_use_default">Use default</string>
+
+    <!-- Automation -->
+    <string name="section_automation">Smart modes</string>
+    <string name="automation_subtitle">Switch modes automatically based on what you\'re doing</string>
+    <string name="automation_switch">Use smart modes</string>
+    <string name="rule_walking">Walking</string>
+    <string name="rule_noisy">Noisy place</string>
+    <string name="rule_stationary">Sitting still</string>
+    <string name="ambient_db">%1$d dB</string>
+    <string name="automation_last">Switched to %1$s because you were %2$s · %3$s</string>
+    <string name="automation_note">Changing the mode yourself pauses smart modes for 30 minutes. Noise is measured briefly with your phone\'s microphone and never recorded.</string>
+    <string name="activity_unknown">Detecting activity…</string>
+    <string name="activity_still">Still</string>
+    <string name="activity_walking">Walking</string>
+    <string name="activity_running">Running</string>
+    <string name="activity_cycling">Cycling</string>
+    <string name="activity_vehicle">In a vehicle</string>
+
+    <!-- Find -->
+    <string name="section_find">Find my AirPods</string>
+    <string name="find_last_seen">Last seen %1$s · within %2$d m</string>
+    <string name="time_just_now">just now</string>
+    <string name="find_no_location">AirSync remembers where your AirPods were when they disconnected</string>
+    <string name="find_play_title">Play a sound</string>
+    <string name="find_both">Both</string>
+    <string name="find_case_unavailable">Plays a loud tone through the AirPods themselves. The case speaker only responds to a signed Find My command that needs the owner key stored in the Apple ID the AirPods are registered to, so it can\'t be triggered from Android.</string>
+    <string name="find_needs_connection">Connect your AirPods to play a sound on them.</string>
+    <string name="find_confirm_title">Play sound?</string>
+    <string name="find_confirm_body">A loud sound will play and gradually get louder. Make sure no one is wearing these AirPods.</string>
+    <string name="action_open_maps">Open in Maps</string>
+    <string name="action_enable_find">Turn on location for Find</string>
+    <string name="action_play_sound">Play sound</string>
+    <string name="action_stop_sound">Stop sound</string>
+
+    <!-- Background -->
+    <string name="section_background">Background</string>
+    <string name="background_title">Keep working in the background</string>
+    <string name="background_subtitle">Ear detection, smart modes, the tile and widget stay up to date. Uses very little battery.</string>
+    <string name="notifications_needed">Allow notifications to see battery levels at a glance.</string>
+    <string name="battery_optimized_note">Battery optimization may stop ear detection when the screen is off.</string>
+
+    <!-- Details -->
+    <string name="section_details">Connection</string>
+    <string name="detail_model">Model</string>
+    <string name="detail_address">Bluetooth address</string>
+    <string name="detail_firmware">Firmware</string>
+    <string name="detail_battery_source">Battery data</string>
+    <string name="detail_control">Direct control</string>
+    <string name="detail_ear">Ear detection</string>
+    <string name="detail_mode">Listening mode</string>
+    <string name="source_none">Waiting</string>
+    <string name="source_hfp">Headset profile</string>
+    <string name="source_ble">Live broadcast</string>
+    <string name="source_aap">Control channel</string>
+    <string name="control_connected">Connected (live battery, ear detection, listening modes)</string>
+    <string name="control_connecting">Connecting…</string>
+    <string name="control_unavailable">Not supported on this phone</string>
+    <string name="ear_detection_on">Active</string>
+    <string name="ear_detection_waiting">Waiting for data</string>
+
+    <!-- Devices -->
+    <string name="device_automatic">Automatic</string>
+    <string name="device_automatic_desc">Any connected device named “AirPods”</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to AirSync</string>
+    <string name="onboarding_body">Battery levels, listening modes and automatic ear detection for your AirPods, built for Android.</string>
+    <string name="onboarding_nearby_title">Nearby devices</string>
+    <string name="onboarding_nearby_body">Needed to detect your AirPods and read their battery and ear sensors.</string>
+    <string name="onboarding_notif_title">Notifications</string>
+    <string name="onboarding_notif_body">Shows battery levels while AirSync works in the background.</string>
+    <string name="onboarding_denied">AirSync can\'t find your AirPods without the Nearby devices permission. You can allow it in Settings.</string>
+    <string name="onboarding_privacy">Everything stays on your phone. AirSync has no account and collects no data.</string>
+
+    <!-- Actions -->
+    <string name="action_continue">Continue</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_try_again">Try again</string>
+    <string name="action_turn_on">Turn on</string>
+    <string name="action_bluetooth_settings">Bluetooth settings</string>
+    <string name="action_connect">Connect</string>
+    <string name="connect_tile_label">Connect AirPods</string>
+    <string name="connect_tile_tap">Tap to connect</string>
+    <string name="connect_tile_bt_off">Bluetooth is off</string>
+    <string name="connect_connecting">Connecting…</string>
+    <string name="msg_connect_failed">Couldn\'t connect. Open the case near your phone and try again.</string>
+    <string name="msg_connect_not_paired">Pair your AirPods in Bluetooth settings first.</string>
+    <string name="action_choose_device">Choose device</string>
+    <string name="action_done">Done</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_switch_mode">Switch mode</string>
+    <string name="cd_more_options">More options</string>
+    <string name="widget_switch_mode_cd">Listening mode: %1$s. Double-tap to switch.</string>
+
+    <!-- Messages -->
+    <string name="msg_background_enabled_for_automation">Background mode turned on so smart modes can run</string>
+    <string name="msg_find_needs_connection">Connect your AirPods to play a sound</string>
+    <string name="msg_location_unavailable">Couldn\'t get your location. Make sure location is on.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">AirPods status</string>
+    <string name="notification_channel_description">Battery and listening mode while AirSync runs in the background</string>
+    <string name="notification_waiting_title">AirSync is ready</string>
+    <string name="notification_waiting_text">Waiting for your AirPods</string>
+</resources>

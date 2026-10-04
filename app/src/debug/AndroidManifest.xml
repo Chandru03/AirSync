@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Debug builds only: lets adb trigger hardware probes. Never ships in release. -->
+        <receiver
+            android:name=".debug.DebugProbeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.airsync.debug.HEAD_PROBE" />
+                <action android:name="com.example.airsync.debug.CYCLE_MODE" />
+                <action android:name="com.example.airsync.debug.GESTURE_TEST" />
+                <action android:name="com.example.airsync.debug.CONNECT" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
